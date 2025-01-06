@@ -105,6 +105,10 @@ BLE demosunu derleyebilmek için aşağıdaki yorum satırlarının arasındaki 
 
 Ardından derleme ve derlenen yazılımın kartına yükleme  işlemlerini tamamlayın.
 
+Bu demoda WIFI Provisioning işlemi için LightBlue BLE uygulaması kullanılmaktadır.
+
+Uygulamayı gerçekleştirmek için herhangi bir BLE uygulamasını da kullanabilirsiniz.
+
 Uygulama ile BLE ile karşılıklı veri aktarımı yapılabilmektedir.
 
 ## MQTT DEMO
@@ -128,6 +132,10 @@ MQTTConfig config =
         .topicPub = "/topic/genel"};
 ```
 Derleme ve karta yükleme işlemlerini gerçekleştirin. Demo başlar ve ardından WIFI Provisioning işlemi için BLE advertising işlemine başlar.
+
+Bu demoda WIFI Provisioning işlemi için LightBlue BLE uygulaması kullanılmaktadır.
+
+Uygulamayı gerçekleştirmek için herhangi bir BLE uygulamasını da kullanabilirsiniz.
 
 BLE adresi terminal üzerinden loglanmaktadır. Log çıktılarından BLE adresine görseldeki gibi Connect'e tıklayın.
 
