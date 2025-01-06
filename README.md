@@ -131,23 +131,23 @@ Derleme ve karta yükleme işlemlerini gerçekleştirin. Demo başlar ve ardınd
 
 BLE adresi terminal üzerinden loglanmaktadır. Log çıktılarından BLE adresine görseldeki gibi Connect'e tıklayın.
 
-![alt text](image-6.png)
+![alt text](docs/image-6.png)
 
 Ardından görseldeki Hex kısmına tıklayalım 
 
-![alt text](image-7.png)
+![alt text](docs/image-7.png)
 
 ve UTF-8 String seçeneğini seçin ve Save seçeneğine tıklayın.
 
-![alt text](image-8.png)
+![alt text](docs/image-8.png)
 
 Ardından ana menüye dönün ve **Write new value** seçeneğini seçin.
 
-![alt text](image-9.png)
+![alt text](docs/image-9.png)
 
 Ve ```CONNECT=<SSID>,<PASSWORD># formatında WIFI SSID ve Şifresini yazın ve Gönder seçeneğine tıklayın.
 
-![alt text](image-10.png)
+![alt text](docs/image-10.png)
 
 WIFI Provisioning işlemi böylece tamamlanmıştır.
 
@@ -201,7 +201,7 @@ Derleme işlemini gerçekleştirebilmek için öncelikle `fc41d-empa-workshop-sd
 
 Bu işlem, terminali doğru dizinde açmanızı sağlayacaktır.
 
-![Open in Terminal Örneği](image.png)
+![Open in Terminal Örneği](docs/image.png)
 
 Klasörde terminali açtıktan sonra, aşağıdaki komutu çalıştırarak derleme işlemini gerçekleştirebilirsiniz:  
 
@@ -211,7 +211,7 @@ Klasörde terminali açtıktan sonra, aşağıdaki komutu çalıştırarak derle
 
 Derleme işleminin başarıyla sonuçlanması halinde, terminalde aşağıdaki gibi bir çıktı göreceksiniz:
 
-![Derleme Başarılı](image-1.png)
+![Derleme Başarılı](docs/image-1.png)
 
 Derleme işlemi başarıyla tamamlanmıştır. Artık oluşturulan bin dosyasını FC41D modülüne yükleyebilirsiniz.
 
@@ -225,22 +225,22 @@ Bu klasörde, binary dosyaları yer almaktadır. Buradaki `all_2M.1220.bin` dosy
 
 Ardından `BKFIL.exe` uygulamasını çalıştırın.
 
-![BKFIL dosyaları](image-2.png)
+![BKFIL dosyaları](docs/image-2.png)
 
 Ardından, aşağıdaki görselde gösterildiği gibi:  
 1. **SelectPort** bölümünden, kullanmakta olduğunuz **COM portu** ve **Baud Rate** ayarlarını yapın.  
 2. **Bin Path** bölümünden, yüklemek istediğiniz binary dosyasını seçin.  
 
-![BKFIL uygulaması](image-3.png)
+![BKFIL uygulaması](docs/image-3.png)
 
 Ardından Download butonuna tıklayın.
 
-![alt text](image-4.png)
+![alt text](docs/image-4.png)
 
 **Download** butonuna bastıktan sonra, **Getting Bus...** mesajını göreceksiniz. Bu adımdan sonra, kart üzerindeki **Reset** butonuna basın. (Eğer işlem başlamazsa, butona birden fazla kez basmanız gerekebilir.)  
 
 Yükleme işlemi başarıyla tamamlandığında, aşağıdaki gibi bir çıktı alacaksınız. Bu, derlenen yazılımın karta başarıyla yüklendiğini gösterir.  
 
 
-![alt text](image-5.png)
+![alt text](docs/image-5.png)
 
